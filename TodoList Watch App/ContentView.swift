@@ -24,7 +24,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 if viewModel.categories.isEmpty {
-                    Text("Ainda não há categorias!")
+                    Text("Ainda não há catedsdsgorias!")
                 }
                 ForEach(viewModel.categories) { category in
                     NavigationLink(destination: TaskListView(category: category, viewModel: viewModel)) {
