@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC94DE12DE0CB520063440D /* TodoList Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0AC94DE02DE0CB520063440D /* TodoList Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC94DE22DE0CB520063440D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC94DD42DE0CB520063440D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC94DDF2DE0CB520063440D;
+			remoteInfo = "TodoList Watch App";
+		};
+		0AC94DF32DE0CB540063440D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC94DD42DE0CB520063440D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC94DDF2DE0CB520063440D;
+			remoteInfo = "TodoList Watch App";
+		};
+		0AC94DFD2DE0CB540063440D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC94DD42DE0CB520063440D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC94DDF2DE0CB520063440D;
+			remoteInfo = "TodoList Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0AC94E092DE0CB540063440D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0AC94DE12DE0CB520063440D /* TodoList Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AC94DDA2DE0CB520063440D /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC94DE02DE0CB520063440D /* TodoList Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodoList Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC94DF22DE0CB540063440D /* TodoList Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TodoList Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC94DFC2DE0CB540063440D /* TodoList Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TodoList Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0AC94DE42DE0CB520063440D /* TodoList Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TodoList Watch App";
+			sourceTree = "<group>";
+		};
+		0AC94DF52DE0CB540063440D /* TodoList Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TodoList Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0AC94DFF2DE0CB540063440D /* TodoList Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TodoList Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC94DDD2DE0CB520063440D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DEF2DE0CB540063440D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DF92DE0CB540063440D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC94DD32DE0CB520063440D = {
+			isa = PBXGroup;
+			children = (
+				0AC94DE42DE0CB520063440D /* TodoList Watch App */,
+				0AC94DF52DE0CB540063440D /* TodoList Watch AppTests */,
+				0AC94DFF2DE0CB540063440D /* TodoList Watch AppUITests */,
+				0AC94DDB2DE0CB520063440D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC94DDB2DE0CB520063440D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC94DDA2DE0CB520063440D /* TodoList.app */,
+				0AC94DE02DE0CB520063440D /* TodoList Watch App.app */,
+				0AC94DF22DE0CB540063440D /* TodoList Watch AppTests.xctest */,
+				0AC94DFC2DE0CB540063440D /* TodoList Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC94DD92DE0CB520063440D /* TodoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC94E0A2DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList" */;
+			buildPhases = (
+				0AC94DD82DE0CB520063440D /* Resources */,
+				0AC94E092DE0CB540063440D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC94DE32DE0CB520063440D /* PBXTargetDependency */,
+			);
+			name = TodoList;
+			packageProductDependencies = (
+			);
+			productName = TodoList;
+			productReference = 0AC94DDA2DE0CB520063440D /* TodoList.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0AC94DDF2DE0CB520063440D /* TodoList Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC94E062DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch App" */;
+			buildPhases = (
+				0AC94DDC2DE0CB520063440D /* Sources */,
+				0AC94DDD2DE0CB520063440D /* Frameworks */,
+				0AC94DDE2DE0CB520063440D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0AC94DE42DE0CB520063440D /* TodoList Watch App */,
+			);
+			name = "TodoList Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TodoList Watch App";
+			productReference = 0AC94DE02DE0CB520063440D /* TodoList Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC94DF12DE0CB540063440D /* TodoList Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC94E0D2DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch AppTests" */;
+			buildPhases = (
+				0AC94DEE2DE0CB540063440D /* Sources */,
+				0AC94DEF2DE0CB540063440D /* Frameworks */,
+				0AC94DF02DE0CB540063440D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC94DF42DE0CB540063440D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0AC94DF52DE0CB540063440D /* TodoList Watch AppTests */,
+			);
+			name = "TodoList Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TodoList Watch AppTests";
+			productReference = 0AC94DF22DE0CB540063440D /* TodoList Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC94DFB2DE0CB540063440D /* TodoList Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC94E102DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch AppUITests" */;
+			buildPhases = (
+				0AC94DF82DE0CB540063440D /* Sources */,
+				0AC94DF92DE0CB540063440D /* Frameworks */,
+				0AC94DFA2DE0CB540063440D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC94DFE2DE0CB540063440D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0AC94DFF2DE0CB540063440D /* TodoList Watch AppUITests */,
+			);
+			name = "TodoList Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TodoList Watch AppUITests";
+			productReference = 0AC94DFC2DE0CB540063440D /* TodoList Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC94DD42DE0CB520063440D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0AC94DD92DE0CB520063440D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0AC94DDF2DE0CB520063440D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0AC94DF12DE0CB540063440D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0AC94DDF2DE0CB520063440D;
+					};
+					0AC94DFB2DE0CB540063440D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0AC94DDF2DE0CB520063440D;
+					};
+				};
+			};
+			buildConfigurationList = 0AC94DD72DE0CB520063440D /* Build configuration list for PBXProject "TodoList" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC94DD32DE0CB520063440D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0AC94DDB2DE0CB520063440D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC94DD92DE0CB520063440D /* TodoList */,
+				0AC94DDF2DE0CB520063440D /* TodoList Watch App */,
+				0AC94DF12DE0CB540063440D /* TodoList Watch AppTests */,
+				0AC94DFB2DE0CB540063440D /* TodoList Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC94DD82DE0CB520063440D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DDE2DE0CB520063440D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DF02DE0CB540063440D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DFA2DE0CB540063440D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC94DDC2DE0CB520063440D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DEE2DE0CB540063440D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC94DF82DE0CB540063440D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC94DE32DE0CB520063440D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC94DDF2DE0CB520063440D /* TodoList Watch App */;
+			targetProxy = 0AC94DE22DE0CB520063440D /* PBXContainerItemProxy */;
+		};
+		0AC94DF42DE0CB540063440D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC94DDF2DE0CB520063440D /* TodoList Watch App */;
+			targetProxy = 0AC94DF32DE0CB540063440D /* PBXContainerItemProxy */;
+		};
+		0AC94DFE2DE0CB540063440D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC94DDF2DE0CB520063440D /* TodoList Watch App */;
+			targetProxy = 0AC94DFD2DE0CB540063440D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AC94E042DE0CB540063440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AC94E052DE0CB540063440D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0AC94E072DE0CB540063440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoList Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apolo.TodoList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0AC94E082DE0CB540063440D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoList Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apolo.TodoList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		0AC94E0B2DE0CB540063440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apolo.TodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AC94E0C2DE0CB540063440D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = TodoList;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apolo.TodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC94E0E2DE0CB540063440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apolo.TodoList-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0AC94E0F2DE0CB540063440D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apolo.TodoList-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoList Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		0AC94E112DE0CB540063440D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apolo.TodoList-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TodoList Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		0AC94E122DE0CB540063440D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apolo.TodoList-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TodoList Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC94DD72DE0CB520063440D /* Build configuration list for PBXProject "TodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC94E042DE0CB540063440D /* Debug */,
+				0AC94E052DE0CB540063440D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC94E062DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC94E072DE0CB540063440D /* Debug */,
+				0AC94E082DE0CB540063440D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC94E0A2DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC94E0B2DE0CB540063440D /* Debug */,
+				0AC94E0C2DE0CB540063440D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC94E0D2DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC94E0E2DE0CB540063440D /* Debug */,
+				0AC94E0F2DE0CB540063440D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC94E102DE0CB540063440D /* Build configuration list for PBXNativeTarget "TodoList Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC94E112DE0CB540063440D /* Debug */,
+				0AC94E122DE0CB540063440D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC94DD42DE0CB520063440D /* Project object */;
+}
