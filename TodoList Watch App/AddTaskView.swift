@@ -3,25 +3,26 @@ import SwiftUI
 struct AddTaskView: View {
     @Environment(\.dismiss) var dismiss
     @ObservedObject var viewModel: TaskViewModel
+    var category: Category
     @State private var newTaskTitle = ""
-    
+
     var body: some View {
         NavigationStack {
             Form {
-                TextField("Task title", text: $newTaskTitle)
+                TextField("Nome da tarefa", text: $newTaskTitle)
             }
-            .navigationTitle("New Task")
+            .navigationTitle("Nova Tarefa")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") {
+                    Button("Salvar") {
                         if !newTaskTitle.isEmpty {
-                            viewModel.addTask(title: newTaskTitle)
+                            viewModel.addTask(to: category, title: newTaskTitle)
                             dismiss()
                         }
                     }
                 }
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") {
+                    Button("Cancelar") {
                         dismiss()
                     }
                 }

@@ -1,10 +1,3 @@
-//
-//  TaskListView.swift
-//  TodoList
-//
-//  Created by Kayo Geraldi on 23/05/25.
-//
-
 
 import SwiftUI
 
@@ -17,12 +10,14 @@ struct TaskListView: View {
         List {
             ForEach(category.tasks) { task in
                 HStack {
+                    
                     Image(systemName: task.isCompleted ? "checkmark.circle.fill" : "circle")
                         .onTapGesture {
                             viewModel.toggleCompletion(for: task, in: category)
                         }
                     Text(task.title)
                         .strikethrough(task.isCompleted)
+                    
                 }
             }
             .onDelete { indexSet in
@@ -30,7 +25,9 @@ struct TaskListView: View {
             }
         }
         .navigationTitle(category.name)
+        
         .toolbar {
+            
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     showingAddTask = true
